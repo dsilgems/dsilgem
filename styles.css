@@ -1,15 +1,15 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: calibri, sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+background: rgb(40,104,119);
+background: linear-gradient(90deg, rgba(40,104,119,1) 0%, rgba(45,149,182,1) 23%, rgba(139,171,179,1) 67%, rgba(192,221,227,1) 100%);
 }
+
 
 .logo {
     width: 150px;
@@ -32,10 +32,17 @@ header {
 }
 
 .icon {
-    width: 50px;
+    width: 30px; /* Reduce the size of the WhatsApp icon */
     height: auto;
     margin: 10px;
+    vertical-align: middle;
 }
+
+#contact p {
+    text-align: left; /* Align contact icons to the left */
+}
+
+
 
 #reportImage img {
     width: 3.37in; /* Credit card width */
