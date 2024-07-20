@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+#catalog, #report, #contact {
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.icon {
+    width: 50px;
+    height: auto;
+    margin: 10px;
+}
+
+#reportImage img {
+    width: 3.37in; /* Credit card width */
+    height: 2.125in; /* Credit card height */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
